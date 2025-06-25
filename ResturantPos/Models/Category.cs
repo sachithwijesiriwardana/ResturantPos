@@ -6,6 +6,6 @@
 
         public string Name { get; set; }
 
-        public ICollection<Product> products { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }

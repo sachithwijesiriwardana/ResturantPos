@@ -6,7 +6,7 @@ namespace ResturantPos.Models
     {
         Task<IEnumerable<T>> GellAllAsync();
 
-        Task<T> GetByAsync(int id,QueryOptions<T>options);
+        Task<T> GetByIdAsync(int id,QueryOptions<T>options);
 
         Task AddAsync(T entity);
 
